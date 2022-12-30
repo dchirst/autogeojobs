@@ -10,7 +10,9 @@ if __name__ == '__main__':
     geo_companies = pd.read_csv(sheet_url)
 
     url_yaml = ""
-    for idx, company in geo_companies.head(5).iterrows():
+    geo_companies = geo_companies[geo_companies["Careers URL"].notnull()].drop_duplicates(subset="Careers URL")
+
+    for idx, company in geo_companies.iterrows():
         urlwatch_entry = {
             "name": company.Company,
             "url": company.Website,
