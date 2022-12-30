@@ -18,8 +18,3 @@ filter:
 name: 4 Earth Intelligence
 url: https://www.4earthintelligence.com/
 ---
-filter:
-- html2text
-name: 4 Earth Intelligence
-url: https://www.4earthintelligence.com/
----
