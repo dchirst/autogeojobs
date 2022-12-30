@@ -17,8 +17,8 @@ report:
     subject: '{count} changes: {jobs}'
     webhook_url: ''
   email:
-    enabled: false
-    from: ''
+    enabled: true
+    from: 'dchirst0@gmail.com'
     html: false
     method: smtp
     sendmail:
@@ -30,7 +30,7 @@ report:
       starttls: true
       user: ''
     subject: '{count} changes: {jobs}'
-    to: ''
+    to: 'geospatialjobs@groups.io'
   html:
     diff: unified
   ifttt:

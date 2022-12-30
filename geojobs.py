@@ -1,30 +1,40 @@
 import pathlib
 import modal
 import subprocess
+import urllib.request
+
 
 stub = modal.Stub("geospatial-jobs")
-# datasette_image = (
-#     modal.Image.debian_slim()
-#     .pip_install(
-#         "datasette~=0.63.2",
-#         "flufl.lock",
-#         "GitPython",
-#         "sqlite-utils",
-#     )
-#     .apt_install("git")
-# )
+urlwatch_image = (
+    modal.Image.debian_slim()
+    .pip_install(
+        "urlwatch",
+    )
+)
 
 volume = modal.SharedVolume().persist("geospatial-jobs-urlwatch-cache")
 
-CACHE_DIR = "/urlwatch_cache"
-LOCK_FILE = str(pathlib.Path(CACHE_DIR, "lock-reports"))
-REPO_DIR = pathlib.Path(CACHE_DIR, "COVID-19")
-DB_PATH = pathlib.Path(CACHE_DIR, "geojobs.db")
+URLWATCH_DIR = "/urlwatch"
 
-URL_PATH = "urls.yaml"
-CONFIG_PATH = "config.yaml"
+DB_PATH = pathlib.Path(URLWATCH_DIR, "geojobs.db")
 
+URL_REMOTE_PATH = "https://raw.githubusercontent.com/dchirst/geospatialjobs/main/urls.yaml"
+CONFIG_REMOTE_PATH = "https://raw.githubusercontent.com/dchirst/geospatialjobs/main/config.yaml"
 
-@stub.function(schedule=modal.Period(days=1))
+URL_PATH = pathlib.Path(URLWATCH_DIR, "urls.yaml")
+CONFIG_PATH = pathlib.Path(URLWATCH_DIR, "config.yaml")
+
+@stub.function(schedule=modal.Period(days=1), image=urlwatch_image, shared_volumes={URLWATCH_DIR: volume},)
 def run_geospatial_urlwatch():
+    with urllib.request.urlopen(urllib.request.Request(URL_REMOTE_PATH)) as src:
+        with open(URL_PATH, "w+") as dst:
+            dst.write(src.read().decode("utf-8"))
+    with urllib.request.urlopen(urllib.request.Request(CONFIG_REMOTE_PATH)) as src:
+        with open(CONFIG_PATH, "w+") as dst:
+            dst.write(src.read().decode("utf-8"))
     subprocess.run(["urlwatch", "--urls", URL_PATH, "--config", CONFIG_PATH, "--cache", DB_PATH])
+
+
+if __name__ == '__main__':
+    with stub.run():
+        run_geospatial_urlwatch.call()
