@@ -1,0 +1,63 @@
+display:
+  empty-diff: true
+  error: true
+  new: true
+  unchanged: false
+job_defaults:
+  all: {}
+  browser: {}
+  shell: {}
+  url: {}
+report:
+  discord:
+    colored: true
+    embed: false
+    enabled: false
+    max_message_length: 2000
+    subject: '{count} changes: {jobs}'
+    webhook_url: ''
+  email:
+    enabled: false
+    from: ''
+    html: false
+    method: smtp
+    sendmail:
+      path: sendmail
+    smtp:
+      auth: true
+      host: localhost
+      port: 25
+      starttls: true
+      user: ''
+    subject: '{count} changes: {jobs}'
+    to: ''
+  html:
+    diff: unified
+  ifttt:
+    enabled: false
+    event: ''
+    key: ''
+  mailgun:
+    api_key: ''
+    domain: ''
+    enabled: false
+    from_mail: ''
+    region: us
+    subject: '{count} changes: {jobs}'
+    to: ''
+  markdown:
+    details: true
+    footer: true
+    minimal: false
+  matrix:
+    access_token: ''
+    enabled: false
+    homeserver: ''
+    room_id: ''
+  mattermost:
+    enabled: false
+    max_message_length: 40000
+    webhook_url: ''
+
+
+
