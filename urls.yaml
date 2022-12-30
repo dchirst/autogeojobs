@@ -1,2 +1,25 @@
-name: "personal website"
-url: "www.danhirst.me"
+filter:
+- html2text
+name: 360Environmental
+url: https://360environmental.com.au/
+---
+filter:
+- html2text
+name: 2Excel Geospatial
+url: http://www.2excelgeo.com
+---
+filter:
+- html2text
+name: 3DEO
+url: https://www.3deo.com/
+---
+filter:
+- html2text
+name: 4 Earth Intelligence
+url: https://www.4earthintelligence.com/
+---
+filter:
+- html2text
+name: 4 Earth Intelligence
+url: https://www.4earthintelligence.com/
+---
