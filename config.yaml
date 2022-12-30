@@ -21,14 +21,12 @@ report:
     from: 'dchirst0@gmail.com'
     html: false
     method: smtp
-    sendmail:
-      path: sendmail
     smtp:
       auth: true
-      host: localhost
-      port: 25
+      host: smtp.gmail.com
+      port: 587
       starttls: true
-      user: ''
+      insecure_password: ${gmail_password}
     subject: '{count} changes: {jobs}'
     to: 'geospatialjobs@groups.io'
   html:
