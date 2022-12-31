@@ -2,6 +2,8 @@ import pathlib
 import modal
 import subprocess
 import urllib.request
+from os import environ
+import re
 
 
 stub = modal.Stub("geospatial-jobs")
@@ -24,15 +26,22 @@ CONFIG_REMOTE_PATH = "https://raw.githubusercontent.com/dchirst/geospatialjobs/m
 URL_PATH = pathlib.Path(URLWATCH_DIR, "urls.yaml")
 CONFIG_PATH = pathlib.Path(URLWATCH_DIR, "config.yaml")
 
-@stub.function(schedule=modal.Period(days=1), image=urlwatch_image, shared_volumes={URLWATCH_DIR: volume},)
+
+@stub.function(schedule=modal.Period(days=1),
+               image=urlwatch_image,
+               shared_volumes={URLWATCH_DIR: volume},
+               secret=modal.Secret.from_name("gmail"))
 def run_geospatial_urlwatch():
     with urllib.request.urlopen(urllib.request.Request(URL_REMOTE_PATH)) as src:
         with open(URL_PATH, "w+") as dst:
             dst.write(src.read().decode("utf-8"))
     with urllib.request.urlopen(urllib.request.Request(CONFIG_REMOTE_PATH)) as src:
         with open(CONFIG_PATH, "w+") as dst:
-            dst.write(src.read().decode("utf-8"))
-    subprocess.run(["urlwatch", "--urls", URL_PATH, "--config", CONFIG_PATH, "--cache", DB_PATH])
+            config_data = re.sub(r'\$\{gmail_password\}',
+            environ.get("EMAIL_PASSWORD"),
+            src.read().decode("utf-8"))
+            dst.write(config_data)
+    subprocess.run(["urlwatch",  "--urls", URL_PATH, "--config", CONFIG_PATH, "--cache", DB_PATH])
 
 
 if __name__ == '__main__':
