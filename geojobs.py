@@ -27,7 +27,7 @@ URL_PATH = pathlib.Path(URLWATCH_DIR, "urls.yaml")
 CONFIG_PATH = pathlib.Path(URLWATCH_DIR, "config.yaml")
 
 
-@stub.function(schedule=modal.Period(days=1),
+@stub.function(schedule=modal.Cron("0 7 * * 2,5"),
                image=urlwatch_image,
                shared_volumes={URLWATCH_DIR: volume},
                secret=modal.Secret.from_name("gmail"))
