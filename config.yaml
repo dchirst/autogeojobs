@@ -26,9 +26,9 @@ report:
       host: smtp.gmail.com
       port: 587
       starttls: true
-      insecure_password: ${gmail_password}
+      insecure_password: ${password}
     subject: '{count} changes: {jobs}'
-    to: 'geospatialjobs@groups.io'
+    to: ${to_email}
   html:
     diff: unified
   ifttt:
