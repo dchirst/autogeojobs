@@ -1,385 +1,400 @@
 filter:
 - html2text
 name: 360Environmental
-url: https://360environmental.com.au/
+url: https://360environmental.com.au/careers/
 ---
 filter:
 - html2text
 name: 2Excel Geospatial
-url: http://www.2excelgeo.com
+url: https://www.2excelaviation.com/careers/
 ---
 filter:
 - html2text
 name: 3DEO
-url: https://www.3deo.com/
+url: https://www.3deo.com/careers
 ---
 filter:
 - html2text
 name: 4 Earth Intelligence
-url: https://www.4earthintelligence.com/
+url: https://www.4earthintelligence.com/about-us/careers/vacancies/
 ---
 filter:
 - html2text
 name: AAM Group
-url: http://www.aamgroup.com
+url: https://aamgroup.com/careers/
 ---
 filter:
 - html2text
 name: ACRI-ST
-url: http://www.acri-st.fr
+url: https://www.acri-st.fr/en/careers
 ---
 filter:
 - html2text
 name: Advanced Infrastructure
-url: https://www.advanced-infrastructure.co.uk/
+url: https://www.advanced-infrastructure.co.uk/career
 ---
 filter:
 - html2text
 name: Aerial Services Inc.
-url: https://aerialservicesinc.com
+url: https://aerialservicesinc.com/careers/
 ---
 filter:
 - html2text
 name: Aerial Survey Limited
-url: https://www.aerialsurveys.co.nz/
+url: https://www.aerialsurveys.co.nz/careers
 ---
 filter:
 - html2text
 name: Aerometrex
-url: https://aerometrex.com.au/
+url: https://aerometrex.com.au/about/careers-aerometrex/
 ---
 filter:
 - html2text
 name: Aerospacelab
-url: https://www.aerospacelab.be/
+url: https://www.aerospacelab.be/join-our-team/
 ---
 filter:
 - html2text
 name: Aeroterra
-url: https://www.aeroterra.com/es-ar/home
+url: https://www.aeroterra.com/es-ar/trabaja-con-nosotros/busquedas-actuales
 ---
 filter:
 - html2text
 name: Aersys
-url: http://www.aresys.it
+url: https://www.aresys.it/careers/#open-positions
 ---
 filter:
 - html2text
 name: Agerpoint
-url: https://www.agerpoint.com
+url: https://www.agerpoint.com/careers
 ---
 filter:
 - html2text
 name: Agrian
-url: https://home.agrian.com
+url: https://www.telus.com/agcg/careers/positions
 ---
 filter:
 - html2text
 name: AI Clearing
-url: https://www.aiclearing.com/#intro-one
+url: https://jobs.lever.co/aidash
 ---
 filter:
 - html2text
 name: Airborne Technologies
-url: http://www.airbornetechnologies.at
+url: https://www.airbornetechnologies.at/en/jobs/
 ---
 filter:
 - html2text
 name: Aistech
-url: https://aistechspace.com
+url: https://aistechspace.com/careers/
 ---
 filter:
 - html2text
 name: Alba Orbital
-url: https://www.albaorbital.com/
+url: https://www.albaorbital.com/careers
 ---
 filter:
 - html2text
 name: Albedo
-url: https://albedo.com/
+url: https://jobs.lever.co/albedo
 ---
 filter:
 - html2text
 name: Alcis
-url: https://www.alcis.org/
+url: https://www.alcis.org/opportunities
 ---
 filter:
 - html2text
 name: Allsource Analysis
-url: https://allsourceanalysis.com
+url: https://allsourceanalysis.com/careers/
 ---
 filter:
 - html2text
 name: Alteia
-url: https://alteia.com/
+url: https://alteia.com/company/careers/
 ---
 filter:
 - html2text
 name: Anditi
-url: https://www.anditi.com/
+url: https://www.anditi.com/careers
 ---
 filter:
 - html2text
 name: Angelswing
-url: https://angelswing.io/en/
+url: https://angelswing.notion.site/Korean-Drone-Data-Startup-Angelswing-is-Recruiting-Software-Engineers-in-Nepal-03a3774841bf4ac4a5b8e2bac21b0e3f
 ---
 filter:
 - html2text
 name: AppGeo
-url: https://www.appgeo.com
+url: https://www.appgeo.com/careers/
 ---
 filter:
 - html2text
 name: Arable
-url: https://www.arable.com/
+url: https://www.linkedin.com/company/arable-labs-inc./jobs/
 ---
 filter:
 - html2text
 name: Arbonaut
-url: https://www.arbonaut.com/en/
+url: https://www.arbonaut.com/en/about-us/careers
 ---
 filter:
 - html2text
 name: Argans
-url: https://argans.co.uk
+url: https://argans.co.uk/careers.html
 ---
 filter:
 - html2text
 name: Ariespace
-url: https://www.ariespace.com/en/
+url: https://www.ariespace.com/lavora-con-noi/
 ---
 filter:
 - html2text
 name: Arlula
-url: https://www.arlula.com/
+url: https://www.arlula.com/careers/
 ---
 filter:
 - html2text
 name: Arturo
-url: https://arturo.ai/
+url: https://jobs.lever.co/Arturo
 ---
 filter:
 - html2text
 name: Assimila
-url: http://www.assimila.eu
+url: https://www.assimila.earth/about/#careers
 ---
 filter:
 - html2text
 name: Astraea
-url: https://astraea.earth
+url: https://www.astraea.earth/careers
 ---
 filter:
 - html2text
 name: Astron
-url: http://www.astron.com.au
+url: http://www.astron.com.au/careers/
 ---
 filter:
 - html2text
 name: Astrosat
-url: https://www.astrosat.space
+url: https://astrosat.net/career/
 ---
 filter:
 - html2text
 name: Atlas AI
-url: https://www.atlasai.co
+url: https://atlasai.applytojob.com/apply/
 ---
 filter:
 - html2text
 name: Attentive AI
-url: http://attentive.ai
+url: https://attentive.ai/careers/
 ---
 filter:
 - html2text
 name: Aurea Imaging
-url: http://www.aureaimaging.com/
+url: https://aureaimaging.com/#ourMission
 ---
 filter:
 - html2text
 name: Aurora Insight
-url: http://aurorainsight.com
+url: https://jobs.lever.co/aurorainsight
 ---
 filter:
 - html2text
 name: Axelspace
-url: https://www.axelspace.com/
+url: https://axelspace.applytojob.com/apply
 ---
 filter:
 - html2text
 name: Axim Geospatial
-url: https://www.aximgeo.com/
+url: https://careers-aximgeo.icims.com/jobs/intro?hashed=-625947405&mobile=false&width=1693&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240
 ---
 filter:
 - html2text
 name: Ayres Associates
-url: https://www.ayresassociates.com
+url: https://www.ayresassociates.com/careers/
 ---
 filter:
 - html2text
 name: Azavea
-url: https://www.azavea.com
+url: https://careers.azavea.com/#openings
 ---
 filter:
 - html2text
 name: Beca
-url: https://www.beca.com
+url: https://beca.csod.com/ux/ats/careersite/1/home?c=beca
 ---
 filter:
 - html2text
 name: 'Betterview '
-url: https://www.betterview.net
+url: https://apply.workable.com/betterview/#jobs
 ---
 filter:
 - html2text
 name: Biosys
-url: https://www.biosis.com.au/
+url: https://www.biosis.com.au/jobs/
 ---
 filter:
 - html2text
 name: Bird.i
-url: https://www.hibirdi.com
+url: https://careers-zonda.icims.com/jobs/search?mobile=false&width=1728&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240
 ---
 filter:
 - html2text
 name: BlackSky
-url: https://www.blacksky.com
+url: https://www.blacksky.com/careers/
 ---
 filter:
 - html2text
 name: Blue Marble Geographics
-url: https://www.bluemarblegeo.com
+url: https://www.bluemarblegeo.com/about/careers/
 ---
 filter:
 - html2text
 name: Blue Raster
-url: https://www.blueraster.com
+url: https://blueraster.jobs/apply
 ---
 filter:
 - html2text
 name: Blue Sky Analytics
-url: https://blueskyhq.in/
+url: https://blueskyhq.io/careers
 ---
 filter:
 - html2text
 name: Brockmann Consult
-url: https://web.brockmann-consult.de
+url: https://www.brockmann-consult.de/career/
 ---
 filter:
 - html2text
 name: C-Core
-url: https://www.c-core.ca
+url: https://c-core.ca/careers/
 ---
 filter:
 - html2text
 name: Cadasta Foundations
-url: https://cadasta.org/
+url: https://cadasta.org/about-us-3/careers-2/
 ---
 filter:
 - html2text
 name: Cadcorp
-url: https://www.cadcorp.com
+url: https://www.cadcorp.com/about-us/careers/current-vacancies/
 ---
 filter:
 - html2text
 name: Caliper
-url: https://www.caliper.com/
+url: https://www.caliper.com/jobs.htm
 ---
 filter:
 - html2text
 name: Camptocamp
-url: https://www.camptocamp.com/en
+url: https://www.camptocamp.com/career#openpositions
 ---
 filter:
 - html2text
 name: Cape Analytics
-url: https://capeanalytics.com
+url: https://jobs.lever.co/capeanalytics
 ---
 filter:
 - html2text
 name: Capella Space
-url: https://www.capellaspace.com/
+url: https://www.capellaspace.com/about-us/careers/
 ---
 filter:
 - html2text
 name: Carbon Plan
-url: https://carbonplan.org/
+url: https://apply.workable.com/carbonplan/
 ---
 filter:
 - html2text
 name: Carbon Mapper
-url: https://carbonmapper.org/
+url: https://jobs.gusto.com/boards/carbon-mapper-inc-3ff9ef6d-ec4f-45af-94e4-2a67e7b31154
 ---
 filter:
 - html2text
 name: Carto
-url: https://carto.com
+url: https://carto.com/careers/#open-positions
 ---
 filter:
 - html2text
 name: Cartovista
-url: https://cartovista.com
+url: https://cartovista.com/careers/
 ---
 filter:
 - html2text
 name: Catalyst
-url: https://www.pcigeomatics.com
+url: https://catalyst.earth/about/careers/
 ---
 filter:
 - html2text
 name: Catapult Satellite Applications
-url: https://sa.catapult.org.uk
+url: https://app.beapplied.com/org/1613/satellite-applications-catapult#jobList
 ---
 filter:
 - html2text
 name: Ceres Imaging
-url: http://www.ceresimaging.net
+url: https://www.ceresimaging.net/careers?hsCtaTracking=39aafc21-f982-44ca-9914-c3815564be34%7Cfc43d777-822b-4534-9a34-902524c3123c
 ---
 filter:
 - html2text
 name: CGG
-url: https://www.cgg.com/en
+url: https://careers.smartrecruiters.com/CGG3/
 ---
 filter:
 - html2text
 name: Chesapeake Conservancy
-url: https://chesapeakeconservancy.org
+url: https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=14B329E3D0A2E479F3FE06280008FB70
 ---
 filter:
 - html2text
 name: Chloris Geospatial
-url: https://chloris.earth/
+url: https://chloris.bamboohr.com/careers
 ---
 filter:
 - html2text
 name: Climate Cooperation
-url: https://www.climate.com
+url: https://climate.eightfold.ai/careers
 ---
 filter:
 - html2text
 name: Climate Engine
-url: https://climateengine.com/
+url: https://climateengine.com/careers/
 ---
 filter:
 - html2text
 name: Climate X
-url: https://www.climate-x.com/
+url: https://www.climate-x.com/careers
 ---
 filter:
 - html2text
 name: Climavision
-url: https://www.climavision.com/
+url: https://boards.greenhouse.io/climavision/
 ---
 filter:
 - html2text
 name: Cloud to Street
-url: http://www.cloudtostreet.info
+url: https://boards.greenhouse.io/cloudtostreet/
 ---
 filter:
 - html2text
 name: cloudEO
-url: https://www.cloudeo.group/
+url: https://www.cloudeo.group/join-us
 ---
 filter:
 - html2text
 name: codex
-url: https://codex.com.br/
+url: https://codex.com.br/sobre/#trabalheconosco
+---
+filter:
+- html2text
+name: Collecte Localisation Satellites (CLS)
+url: https://www.cls.fr/nous-rejoindre/nos-offres-d-emploi/
+---
+filter:
+- html2text
+name: ConstellR
+url: https://constellr.recruitee.com/
+---
+filter:
+- html2text
+name: con terra
+url: https://www.con-terra.com/jobs-and-internships
 ---
