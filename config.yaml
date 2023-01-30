@@ -52,10 +52,7 @@ report:
     enabled: false
     homeserver: ''
     room_id: ''
-  mattermost:
-    enabled: false
-    max_message_length: 40000
-    webhook_url: ''
+
 
 
 
