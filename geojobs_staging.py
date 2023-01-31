@@ -6,9 +6,6 @@ from os import environ
 import re
 from sheet_to_yaml import make_yaml, get_companies
 import hooks
-import html2text
-text_maker = html2text.HTML2Text()
-text_maker.ignore_links = True
 
 stub = modal.Stub("geospatial-jobs-staging")
 urlwatch_image = modal.Image.from_dockerfile("Dockerfile")

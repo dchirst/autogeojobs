@@ -4,15 +4,12 @@ import subprocess
 import urllib.request
 from os import environ
 import re
+import hooks
 
 
 stub = modal.Stub("geospatial-jobs")
-urlwatch_image = (
-    modal.Image.debian_slim()
-    .pip_install(
-        "urlwatch",
-    )
-)
+
+urlwatch_image = modal.Image.from_dockerfile("Dockerfile")
 
 volume = modal.SharedVolume().persist("geospatial-jobs-urlwatch-cache")
 
@@ -37,11 +34,15 @@ def run_geospatial_urlwatch():
             dst.write(src.read().decode("utf-8"))
     with urllib.request.urlopen(urllib.request.Request(CONFIG_REMOTE_PATH)) as src:
         with open(CONFIG_PATH, "w+") as dst:
-            config_data = re.sub(r'\$\{gmail_password\}',
+            config_data = re.sub(r'\$\{password\}',
             environ.get("EMAIL_PASSWORD"),
             src.read().decode("utf-8"))
+            config_data = re.sub(r'\$\{to_email\}',
+            environ.get("TO_EMAIL"),
+            config_data)
+            print(config_data)
             dst.write(config_data)
-    subprocess.run(["urlwatch",  "--urls", URL_PATH, "--config", CONFIG_PATH, "--cache", DB_PATH])
+    subprocess.run(["webchanges",  "--urls", URL_PATH, "--config", CONFIG_PATH, "--hooks", "hooks.py", "--cache", DB_PATH])
 
 
 if __name__ == '__main__':
