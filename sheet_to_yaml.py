@@ -42,7 +42,7 @@ def make_yaml(df: pd.DataFrame, filename: str = "urls.yaml", output_dir: str = N
         if type(company["Element ID"]) == str:
             urlwatch_entry["filter"].append({"element-by-class": company["Element ID"]})
 
-            urlwatch_entry["filter"].append("html2text")
+        urlwatch_entry["filter"].append("html2text")
 
         url_yaml += yaml.dump(urlwatch_entry) + "---\n"
 
