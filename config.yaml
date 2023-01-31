@@ -21,13 +21,14 @@ report:
     from: 'dchirst0@gmail.com'
     html: false
     method: smtp
+    details: false
     smtp:
       auth: true
       host: smtp.gmail.com
       port: 587
       starttls: true
       insecure_password: ${password}
-    subject: '{count} changes: {jobs}'
+    subject: 'Geospatial Jobs has {count} changes'
     to: ${to_email}
   html:
     diff: unified
@@ -52,6 +53,7 @@ report:
     enabled: false
     homeserver: ''
     room_id: ''
+
 
 
 
