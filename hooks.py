@@ -1,6 +1,4 @@
-from urlwatch import filters
-from urlwatch import jobs
-from urlwatch import reporters
+from webchanges import filters
 from bs4 import BeautifulSoup
 
 class IgnoreFilter(filters.FilterBase):
