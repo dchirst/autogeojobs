@@ -1,400 +1,1611 @@
+# 1
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: 360Environmental
 url: https://360environmental.com.au/careers/
 ---
+# 2
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: 2Excel Geospatial
 url: https://www.2excelaviation.com/careers/
 ---
+# 3
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
-name: 3DEO
+name: 4DM
 url: https://www.3deo.com/careers
 ---
+# 4
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
-name: 4 Earth Intelligence
+name: 3DEO
 url: https://www.4earthintelligence.com/about-us/careers/vacancies/
 ---
+# 5
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
-name: AAM Group
+name: 4 Earth Intelligence
 url: https://aamgroup.com/careers/
 ---
+# 6
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: ACRI-ST
 url: https://www.acri-st.fr/en/careers
 ---
+# 7
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Advanced Infrastructure
 url: https://www.advanced-infrastructure.co.uk/career
 ---
+# 8
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Aerial Services Inc.
 url: https://aerialservicesinc.com/careers/
 ---
+# 9
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Aerial Survey Limited
 url: https://www.aerialsurveys.co.nz/careers
 ---
+# 10
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Aerometrex
 url: https://aerometrex.com.au/about/careers-aerometrex/
 ---
+# 11
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Aerospacelab
 url: https://www.aerospacelab.be/join-our-team/
 ---
+# 12
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Aeroterra
 url: https://www.aeroterra.com/es-ar/trabaja-con-nosotros/busquedas-actuales
 ---
+# 13
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Aersys
 url: https://www.aresys.it/careers/#open-positions
 ---
+# 14
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Agerpoint
-url: https://www.agerpoint.com/careers
+navigate: https://www.agerpoint.com/careers
+wait_until: networkidle0
 ---
+# 15
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Agrian
 url: https://www.telus.com/agcg/careers/positions
 ---
+# 16
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
-name: AI Clearing
+name: Aidash
 url: https://jobs.lever.co/aidash
 ---
+# 17
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Airborne Technologies
 url: https://www.airbornetechnologies.at/en/jobs/
 ---
+# 18
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Aistech
 url: https://aistechspace.com/careers/
 ---
+# 19
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Alba Orbital
 url: https://www.albaorbital.com/careers
 ---
+# 20
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Albedo
 url: https://jobs.lever.co/albedo
 ---
+# 21
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Alcis
 url: https://www.alcis.org/opportunities
 ---
+# 22
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Allsource Analysis
 url: https://allsourceanalysis.com/careers/
 ---
+# 23
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Alteia
 url: https://alteia.com/company/careers/
 ---
+# 24
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Anditi
 url: https://www.anditi.com/careers
 ---
+# 25
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Angelswing
 url: https://angelswing.notion.site/Korean-Drone-Data-Startup-Angelswing-is-Recruiting-Software-Engineers-in-Nepal-03a3774841bf4ac4a5b8e2bac21b0e3f
 ---
+# 26
 filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Apem
+url: https://jobs.apemltd.co.uk/vacancies/vacancy-search-results.aspx
+---
+# 27
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Apollo Agriculture
+url: https://jobs.lever.co/apolloagriculture/
+---
+# 28
+filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: AppGeo
 url: https://www.appgeo.com/careers/
 ---
+# 29
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Arable
 url: https://www.linkedin.com/company/arable-labs-inc./jobs/
 ---
+# 30
 filter:
-- html2text
-name: Arbonaut
-url: https://www.arbonaut.com/en/about-us/careers
----
-filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Argans
 url: https://argans.co.uk/careers.html
 ---
+# 31
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Ariespace
 url: https://www.ariespace.com/lavora-con-noi/
 ---
+# 32
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Arlula
 url: https://www.arlula.com/careers/
 ---
+# 33
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Arturo
 url: https://jobs.lever.co/Arturo
 ---
+# 34
 filter:
+- element-by-tag: body
+- ignore: script, style
+- element-by-class: job-board-list-wrapper
 - html2text
 name: Assimila
 url: https://www.assimila.earth/about/#careers
 ---
+# 35
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Astraea
 url: https://www.astraea.earth/careers
 ---
+# 36
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Astron
 url: http://www.astron.com.au/careers/
 ---
+# 37
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Astrosat
 url: https://astrosat.net/career/
 ---
+# 38
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Atlas AI
 url: https://atlasai.applytojob.com/apply/
 ---
+# 39
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Attentive AI
 url: https://attentive.ai/careers/
 ---
+# 40
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Aurea Imaging
 url: https://aureaimaging.com/#ourMission
 ---
+# 41
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Aurora Insight
 url: https://jobs.lever.co/aurorainsight
 ---
+# 42
 filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Avenza International
+url: https://avenza.bamboohr.com/careers/
+---
+# 43
+filter:
+- element-by-tag: body
+- ignore: script, style
+- element-by-class: p-view-jobsearchresults
 - html2text
 name: Axelspace
 url: https://axelspace.applytojob.com/apply
 ---
+# 44
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Axim Geospatial
 url: https://careers-aximgeo.icims.com/jobs/intro?hashed=-625947405&mobile=false&width=1693&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240
 ---
+# 45
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Ayres Associates
 url: https://www.ayresassociates.com/careers/
 ---
+# 46
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Azavea
 url: https://careers.azavea.com/#openings
 ---
+# 47
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Beca
-url: https://beca.csod.com/ux/ats/careersite/1/home?c=beca
+navigate: https://beca.csod.com/ux/ats/careersite/1/home?c=beca
+wait_until: networkidle0
 ---
+# 48
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: 'Betterview '
 url: https://apply.workable.com/betterview/#jobs
 ---
+# 49
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Biosys
 url: https://www.biosis.com.au/jobs/
 ---
+# 50
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Bird.i
 url: https://careers-zonda.icims.com/jobs/search?mobile=false&width=1728&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240
 ---
+# 51
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: BlackSky
-url: https://www.blacksky.com/careers/
+navigate: https://www.blacksky.com/careers/
+wait_until: networkidle0
 ---
+# 52
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Blue Marble Geographics
 url: https://www.bluemarblegeo.com/about/careers/
 ---
+# 53
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Blue Raster
 url: https://blueraster.jobs/apply
 ---
+# 54
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Blue Sky Analytics
 url: https://blueskyhq.io/careers
 ---
+# 55
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Brockmann Consult
 url: https://www.brockmann-consult.de/career/
 ---
+# 56
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: C-Core
 url: https://c-core.ca/careers/
 ---
+# 57
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Cadasta Foundations
 url: https://cadasta.org/about-us-3/careers-2/
 ---
+# 58
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Cadcorp
 url: https://www.cadcorp.com/about-us/careers/current-vacancies/
 ---
+# 59
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Caliper
 url: https://www.caliper.com/jobs.htm
 ---
+# 60
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Camptocamp
-url: https://www.camptocamp.com/career#openpositions
+navigate: https://www.camptocamp.com/career#openpositions
+wait_until: networkidle0
 ---
+# 61
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Cape Analytics
 url: https://jobs.lever.co/capeanalytics
 ---
+# 62
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Capella Space
 url: https://www.capellaspace.com/about-us/careers/
 ---
+# 63
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Carbon Plan
 url: https://apply.workable.com/carbonplan/
 ---
+# 64
 filter:
-- html2text
-name: Carbon Mapper
-url: https://jobs.gusto.com/boards/carbon-mapper-inc-3ff9ef6d-ec4f-45af-94e4-2a67e7b31154
----
-filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Carto
 url: https://carto.com/careers/#open-positions
 ---
+# 65
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Cartovista
 url: https://cartovista.com/careers/
 ---
+# 66
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Catalyst
 url: https://catalyst.earth/about/careers/
 ---
+# 67
 filter:
+- element-by-tag: body
+- ignore: script, style
+- element-by-class: fab-CardContent fab-CardContent--customSpacing
 - html2text
 name: Catapult Satellite Applications
 url: https://app.beapplied.com/org/1613/satellite-applications-catapult#jobList
 ---
+# 68
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Ceres Imaging
 url: https://www.ceresimaging.net/careers?hsCtaTracking=39aafc21-f982-44ca-9914-c3815564be34%7Cfc43d777-822b-4534-9a34-902524c3123c
 ---
+# 69
 filter:
-- html2text
-name: CGG
-url: https://careers.smartrecruiters.com/CGG3/
----
-filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Chesapeake Conservancy
-url: https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=14B329E3D0A2E479F3FE06280008FB70
+navigate: https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=14B329E3D0A2E479F3FE06280008FB70
+wait_until: networkidle0
 ---
+# 70
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
-name: Chloris Geospatial
-url: https://chloris.bamboohr.com/careers
+name: Clever Maps
+url: https://www.clevermaps.io/careers
 ---
+# 71
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Climate Cooperation
 url: https://climate.eightfold.ai/careers
 ---
+# 72
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Climate Engine
 url: https://climateengine.com/careers/
 ---
+# 73
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Climate X
 url: https://www.climate-x.com/careers
 ---
+# 74
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Climavision
 url: https://boards.greenhouse.io/climavision/
 ---
+# 75
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Cloud to Street
-url: https://boards.greenhouse.io/cloudtostreet/
+url: https://boards.greenhouse.io/floodbase
 ---
+# 76
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: cloudEO
 url: https://www.cloudeo.group/join-us
 ---
+# 77
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: codex
 url: https://codex.com.br/sobre/#trabalheconosco
 ---
+# 78
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: Collecte Localisation Satellites (CLS)
 url: https://www.cls.fr/nous-rejoindre/nos-offres-d-emploi/
 ---
+# 79
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: ConstellR
 url: https://constellr.recruitee.com/
 ---
+# 80
 filter:
+- element-by-tag: body
+- ignore: script, style
 - html2text
 name: con terra
 url: https://www.con-terra.com/jobs-and-internships
+---
+# 81
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Core Logic
+url: https://corelogic.wd5.myworkdayjobs.com/NZCareers
+---
+# 82
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Critigen
+url: https://locana.applytojob.com/apply
+---
+# 83
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Cropin
+url: https://www.cropin.com/jobs
+---
+# 84
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: CrowdAI
+url: https://www.crowdai.com/careers#open-positions
+---
+# 85
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Datum
+navigate: https://datum.az/careers
+wait_until: networkidle0
+---
+# 86
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Delphi IMM
+url: https://www.delphi-imm.de/en/carrier/
+---
+# 87
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Delta Drone
+url: https://www.deltadrone.com/en/join-us/
+---
+# 88
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Descartes Labs
+url: https://jobs.lever.co/descarteslabs.com
+---
+# 89
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Developmentseed
+url: https://developmentseed.org/careers
+---
+# 90
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Disy Informationssysteme
+url: https://www.disy.net/de/karriere/jobs/
+---
+# 91
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Draxis
+url: https://apply.workable.com/draxis/#jobs
+---
+# 92
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Drone Deploy
+url: https://www.dronedeploy.com/about/join-the-team/
+---
+# 93
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: DroneView Technologies
+url: https://www.droneviewtech.com/career
+---
+# 94
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: DTN
+url: https://dtn.wd1.myworkdayjobs.com/en-US/DTN_Careers
+---
+# 95
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Dymaxion Labs
+url: https://dymaxionlabs.com/company/
+---
+# 96
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Eagle Technology
+url: https://www.eagle.co.nz/employment
+---
+# 97
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Eagle View
+url: https://careers-eagleview.icims.com/jobs/search
+---
+# 98
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Earthblox
+url: https://www.earthblox.io/careers
+---
+# 99
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: EarthDaily Analytics
+url: https://earthdaily.com/careers/career-opportunities/earthdaily-analytics-careers/
+---
+# 100
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: earth-i
+url: https://cdn.earthi.space/careers/
+---
+# 101
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Earthpulse
+url: https://earthpulse.ai/about
+---
+# 102
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Earthsense
+url: https://www.earthsense.co.uk/careers
+---
+# 103
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Earthshot Labs
+url: https://www.earthshot.eco/careers
+---
+# 104
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Eco Logical Australia
+url: https://www.ecoaus.com.au/careers/current-positions
+---
+# 105
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Ecometria
+url: https://ecometrica.com/about-us/work-at-ecometrica/
+---
+# 106
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Ecopia
+url: https://www.ecopiatech.com/careers#openings
+---
+# 107
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Echo Analytics
+url: https://join.com/companies/echo-analytics
+---
+# 108
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Effigis
+url: https://effigis.com/en/careers/
+---
+# 109
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Eftas
+url: https://www.eftas.de/en/eftas.php#careers
+---
+# 110
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: eLEAF
+url: https://eleaf.com/careers/
+---
+# 111
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Element 84
+url: https://element84.com/careers
+---
+# 112
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: emapsite
+url: https://www.emapsite.com/about-emapsite/careers
+---
+# 113
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Emu Analytics
+url: https://www.emu-analytics.com/careers/
+---
+# 114
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Environment Systems
+url: https://envsys.co.uk/about-us/#careers
+---
+# 115
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Envitia
+url: https://www.envitia.com/careers/
+---
+# 116
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: eomap
+url: https://www.eomap.com/jobs/
+---
+# 117
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: EOX IT Services
+url: https://eox.at/careers/
+---
+# 118
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: ESRI
+url: https://www.esri.com/en-us/about/careers/job-search
+---
+# 119
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: ESRI
+url: https://careers.esriaustralia.com.au/search/?createNewAlert=false&q=&locationsearch=
+---
+# 120
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Essensys Software
+url: https://essensys.ro/careers/
+---
+# 121
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: European Space Imaging
+url: https://www.euspaceimaging.com/careers/
+---
+# 122
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Eurosense
+url: https://www.eurosense.com/jobs?all_countries=1
+---
+# 123
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Extensis
+url: https://recruiting.paylocity.com/recruiting/jobs/All/b500eddf-9014-4f8e-abf3-146adeac8adc/Celartem-Inc?hsCtaTracking=61646fbd-8b12-4cb4-8988-7eb31c571237%7Cfdf082e4-ff8a-477c-bdbf-439a3d4af0ae
+---
+# 124
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Eyevi Technologies
+url: https://www.eyevi.tech/careers
+---
+# 125
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Farmers Edge
+url: https://farmersedge.applicantpro.com/jobs/
+---
+# 126
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Fathom
+url: https://www.fathom.global/careers/
+---
+# 127
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Fatmap
+url: https://about.fatmap.com/careers
+---
+# 128
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Felt
+url: https://felt.com/careers
+---
+# 129
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Finitie Carbon
+url: https://finitecarbon.bamboohr.com/careers/
+---
+# 130
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: First Street Foundation
+url: https://firststreet.org/team/
+---
+# 131
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Flo Analytics
+url: https://floanalytics.applicantpool.com/jobs/
+---
+# 132
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: FloodMapp
+url: https://www.floodmapp.com/jobs
+---
+# 133
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Foam space
+url: https://jobs.lever.co/foam
+---
+# 134
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Fraym
+url: https://fraym.io/careers/#open-positions
+---
+# 135
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: FrontierSI
+url: https://frontiersi.com.au/working-with-us/
+---
+# 136
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Fruition Science
+url: https://fruitionsciences.com/en/jobs-careers
+---
+# 137
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Fugro
+url: https://fugro.wd3.myworkdayjobs.com/Careers
+---
+# 138
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: FYBR
+url: https://www.fybrsolutions.com/careers
+---
+# 139
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: GAF AG
+url: https://www.gaf.de/content/jobs
+---
+# 140
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: GalaxEye Space
+url: https://galaxeye.zohorecruit.in/careers
+---
+# 141
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Gamaya
+url: https://www.gamaya.com/our-story/careers
+---
+# 142
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: GBS
+url: https://gbs.kiwi/careers-2/
+---
+# 143
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Geckomatics
+url: https://geckomatics.com/careers/
+---
+# 144
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Genscape
+url: https://careers.smartrecruiters.com/Verisk/wood-mackenzie
+---
+# 145
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: GEO Jobe GIS Consulting
+url: https://geo-jobe.com/careers/
+---
+# 146
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Geo3topografia
+url: http://www.geo3topografia.com.br/trabalhe-conosco.html
+---
+# 147
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Geobiro
+url: https://www.geobiro.ba/#
+---
+# 148
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Geoblink
+url: https://careers.geoblink.com/#jobs
+---
+# 149
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Geocento
+url: https://geocento.com/about_us
+---
+# 150
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Geocledian
+url: https://geocledian.com/page/jobs
+---
+# 151
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Geodata
+url: https://geodata.no/karriere
+---
+# 152
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Geofly
+url: https://web.geofly.eu/en/jobs/index.html
+---
+# 153
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Geomarvel
+url: https://geomarvel.com/careers/
+---
+# 154
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Geoplana
+url: https://www.geoplana.de/jobs-im-team
+---
+# 155
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Geoplex
+url: https://epdj.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/requisitions?mode=location
+---
+# 156
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Geops
+url: https://geops.com/karriere
+---
+# 157
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Georepublic
+url: https://georepublic.info/en/company/jobs/
+---
+# 158
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Geoscape
+url: https://geoscape.com.au/people-and-culture/#careers
+---
+# 159
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Geosite
+url: https://geosite.pinpointhq.com/
+---
+# 160
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: GeoSolutions
+url: https://www.geosolutionsgroup.com/about/jobs/
+---
+# 161
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Geo Solutions
+url: https://geosolutions.be/werken-at-gs/
+---
+# 162
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Geospark Analytics
+url: https://seerist.com/careers/
+---
+# 163
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Geospatial Enabling Technologies (GET)
+url: https://www.getmap.eu/company/careers/
+---
+# 164
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Geospatial Intelligence PTY LTD
+url: https://geoint.com.au/category/careers/
+---
+# 165
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Geospatial Media+Communications
+url: https://www.geospatialworld.net/about/people.html
+---
+# 166
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Geospin
+url: https://www.geospin.de/en/
+---
+# 167
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Geosysnet
+url: http://www.geosysnet.de/en/jobs.html
+---
+# 168
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Geosystems Hellas
+url: https://www.geosystems-hellas.gr/careers-2/
+---
+# 169
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Geosystems S.A.
+url: https://www.geosystems.com.ar/en/company/#joingeosystemsteam
+---
+# 170
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Geovation
+url: https://ordnancesurvey.wd3.myworkdayjobs.com/OS_Careers
+---
+# 171
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Geovibe
+url: https://geo-vibe.com/careers/
+---
+# 172
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Geovigo
+url: https://geovigo.pl/en/#career
+---
+# 173
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Geoville
+url: https://careers.geoville.com/
+---
+# 174
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Getmapping
+url: https://www.getmapping.co.uk/news-library/categories/current-vacancies
+---
+# 175
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: GFK
+url: https://www.gfk.com/careers/search-for-jobs
+---
+# 176
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: GHGSAT
+url: https://ghgsat.bamboohr.com/jobs/
+---
+# 177
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Gim
+url: https://jobs.gim.be/en
+---
+# 178
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: GIS People
+url: https://www.gispeople.com.au/careers/
+---
+# 179
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Gisat
+url: https://www.gisat.cz/company/#careers
+---
+# 180
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: GISCloud
+url: https://www.giscloud.com/careers/
+---
+# 181
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: GISInc
+url: https://careers-aximgeo.icims.com/jobs/search?hashed=-625947405&mobile=false&width=1693&height=500&bga=true&needsRedirect=false&jan1offset=0&jun1offset=60
+---
+# 182
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Globaltrust
+url: https://globaltrustgrp.com/careers/
+---
+# 183
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Globema
+url: https://www.globema.com/careers/
+---
+# 184
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: GMV
+navigate: https://gmv.csod.com/ux/ats/careersite/4/home?c=gmv&lang=en-US
+wait_until: networkidle0
+---
+# 185
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Gro Intelligence
+url: https://gro-intelligence.com/open-positions
+---
+# 186
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Harris
+url: https://careers.l3harris.com/search-jobs
+---
+# 187
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Hatfield Consultants
+url: https://www.hatfieldgroup.com/current-careers/
+---
+# 188
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Hawa Dawa
+url: https://hawadawa.com/jobs/
+---
+# 189
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Hawkeye 360
+url: https://hawkeye360.applicantstack.com/x/openings
+---
+# 190
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: HEAD Aerospatial Group France
+url: https://www.head-aerospace.eu/careers
+---
+# 191
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: HERE Technologies
+url: https://careers-here.icims.com/jobs/search?ss=1
+---
+# 192
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Hexagon Geospatial
+url: https://hexagon.com/company/careers/job-listings
+---
+# 193
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Hexamap Solutions
+url: https://hexamapsolutions.com/careers.html
+---
+# 194
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Hivemapper
+url: https://jobs.lever.co/Hivemapper/
+---
+# 195
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Hydrosat
+url: https://apply.workable.com/hydrosat/#jobs
+---
+# 196
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Hyperverge
+url: https://apply.workable.com/hyperverge/#jobs
+---
+# 197
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: HQPlantations
+url: https://www.hqplantations.com.au/our-people/career-opportunities
+---
+# 198
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: IABG
+navigate: https://jobboerse.iabg.de/engage/jobexchange/showJobOfferList.do?j=myjobexchange
+wait_until: networkidle0
+---
+# 199
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Iceye
+url: https://www.iceye.com/careers#open-positions
+---
+# 200
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: iFarmer Asia
+url: https://ifarmer.asia/career?locale=en
 ---
