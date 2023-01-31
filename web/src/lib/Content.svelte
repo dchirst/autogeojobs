@@ -48,7 +48,7 @@
         </p>
         <h2 id="infra">How was this made?</h2>
         <p>
-            This newsletter was made using <a href="https://modal.com/">Modal</a> and <a href="groups.io">Groups.io</a>.
+            This newsletter was made using <a href="https://webchanges.readthedocs.io/en/stable/">webchanges</a>, <a href="https://modal.com/">Modal</a> and <a href="groups.io">Groups.io</a>.
             The companies and their careers pages are collated in a <a href="https://docs.google.com/spreadsheets/d/1YieNiDHVTC5CfX13n72fXuceDaubSuyrghgAnxipsbY/edit#gid=0">Google Sheet</a>.
             The source code is available in <a href="https://github.com/dchirst/geospatialjobs">this repository</a>.
         </p>

@@ -109,7 +109,7 @@ filter:
 - html2text
 name: Agerpoint
 navigate: https://www.agerpoint.com/careers
-wait_until: networkidle0
+wait_until: networkidle
 ---
 # 15
 filter:
@@ -376,7 +376,7 @@ filter:
 - html2text
 name: Beca
 navigate: https://beca.csod.com/ux/ats/careersite/1/home?c=beca
-wait_until: networkidle0
+wait_until: networkidle
 ---
 # 48
 filter:
@@ -409,7 +409,7 @@ filter:
 - html2text
 name: BlackSky
 navigate: https://www.blacksky.com/careers/
-wait_until: networkidle0
+wait_until: networkidle
 ---
 # 52
 filter:
@@ -482,7 +482,7 @@ filter:
 - html2text
 name: Camptocamp
 navigate: https://www.camptocamp.com/career#openpositions
-wait_until: networkidle0
+wait_until: networkidle
 ---
 # 61
 filter:
@@ -556,7 +556,7 @@ filter:
 - html2text
 name: Chesapeake Conservancy
 navigate: https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=14B329E3D0A2E479F3FE06280008FB70
-wait_until: networkidle0
+wait_until: networkidle
 ---
 # 70
 filter:
@@ -685,7 +685,7 @@ filter:
 - html2text
 name: Datum
 navigate: https://datum.az/careers
-wait_until: networkidle0
+wait_until: networkidle
 ---
 # 86
 filter:
@@ -1138,7 +1138,7 @@ url: https://www.gamaya.com/our-story/careers
 # 142
 filter:
 - element-by-tag: body
-- ignore: script, style
+- ignore: script, style, .captcha-image
 - html2text
 name: GBS
 url: https://gbs.kiwi/careers-2/
@@ -1229,7 +1229,8 @@ filter:
 - ignore: script, style
 - html2text
 name: Geomarvel
-url: https://geomarvel.com/careers/
+navigate: https://geomarvel.com/careers/
+wait_until: networkidle
 ---
 # 154
 filter:
@@ -1478,7 +1479,7 @@ filter:
 - html2text
 name: GMV
 navigate: https://gmv.csod.com/ux/ats/careersite/4/home?c=gmv&lang=en-US
-wait_until: networkidle0
+wait_until: networkidle
 ---
 # 185
 filter:
@@ -1591,7 +1592,7 @@ filter:
 - html2text
 name: IABG
 navigate: https://jobboerse.iabg.de/engage/jobexchange/showJobOfferList.do?j=myjobexchange
-wait_until: networkidle0
+wait_until: networkidle
 ---
 # 199
 filter:
@@ -1608,4 +1609,190 @@ filter:
 - html2text
 name: iFarmer Asia
 url: https://ifarmer.asia/career?locale=en
+---
+# 201
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Imagem nl
+url: https://www.imagemnl.com/career/
+---
+# 202
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Imagem
+url: https://geosistemas.gupy.io/
+---
+# 203
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Immergis
+url: https://immergis.fr/emploi/
+---
+# 204
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Impact Observatory
+url: https://www.impactobservatory.com/careers
+---
+# 205
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Indigo Ag
+url: https://jobs.lever.co/indigoag/
+---
+# 206
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Intelinair
+url: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=d58bbd37-72f6-4c71-9c8e-203afd783559&ccId=9200397141663_2&lang=en_US&selectedMenuKey=CurrentOpenings
+---
+# 207
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Interpret
+url: https://careers.abley.com/#jobs
+---
+# 208
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: IsardSat
+url: https://www.isardsat.co.uk/work-with-us
+---
+# 209
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: ISI
+url: https://www.imagesatintl.com/careers/
+---
+# 210
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Jupiter Intelligence
+url: https://jobs.lever.co/jupiterintel/
+---
+# 211
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Kaart
+url: https://www.kaart.com/about/careers/
+---
+# 212
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Kairos Aerospace
+url: https://jobs.lever.co/kairosaerospace/
+---
+# 213
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Kartoza
+url: https://kartoza.com/careers
+---
+# 214
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: KatRisk
+url: https://www.katrisk.com/about
+---
+# 215
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Kawa Space
+navigate: https://angel.co/company/kawaspace/jobs
+wait_until: networkidle
+---
+# 216
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Kayrros
+navigate: https://kayrros1.recruitee.com/
+wait_until: networkidle
+---
+# 217
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Kleos Space
+url: https://kleos.space/category/careers/
+---
+# 218
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Kongsberg Geospatial
+url: https://www.kongsberggeospatial.com/company/careers
+---
+# 219
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Land IQ
+url: https://www.landiq.com/careers
+---
+# 220
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: Landmark
+url: https://www.landmark.co.uk/careers/vacancies/
+---
+# 221
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: LIFA A/S
+url: https://www.lifa.dk/karriere/ledige-stillinger/
+---
+# 222
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: LiveEO
+url: https://live-eo.com/jobs/
+---
+# 223
+filter:
+- element-by-tag: body
+- ignore: script, style
+- html2text
+name: LMKT
+url: https://www.lmkt.com/jobs
 ---
