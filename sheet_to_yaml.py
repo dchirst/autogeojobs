@@ -26,10 +26,12 @@ def make_yaml(df: pd.DataFrame, filename: str = "urls.yaml", output_dir: str = N
         url_yaml += f"# {idx + 1}\n"
         urlwatch_entry = {
             "name": company.Company,
-            "filter": [{"element-by-tag": "body"}, {"ignore": "script, style"}]
+            "filter": [{"element-by-tag": "body"}, {"ignore": "script"}, {"ignore": "style"}]
         }
         if type(company["Ignore"]) == str:
-            urlwatch_entry["filter"][1]["ignore"] = urlwatch_entry["filter"][1]["ignore"] + ", " + company["Ignore"]
+            for ignore_filter in company["Ignore"].split(","):
+
+                urlwatch_entry["filter"].append({"ignore": ignore_filter.strip()})
         if type(company["Navigate"]) == str:
             urlwatch_entry["navigate"] = company["Careers URL"]
             urlwatch_entry["wait_until"] = "networkidle"
@@ -43,6 +45,7 @@ def make_yaml(df: pd.DataFrame, filename: str = "urls.yaml", output_dir: str = N
             urlwatch_entry["filter"].append({"element-by-class": company["Element ID"]})
 
         urlwatch_entry["filter"].append("html2text")
+        # urlwatch_entry['filter'][1]["ignore"] = urlwatch_entry['ignore'].split(",")
 
         url_yaml += yaml.dump(urlwatch_entry) + "---\n"
 

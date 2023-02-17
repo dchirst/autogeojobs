@@ -26,7 +26,7 @@ For a more curated newsletter, I'd recommend you subscribe to <a href="#comparis
 <h2>Tracked Companies</h2>
 <p>The geospatial companies come from <a href="https://github.com/chrieke/awesome-geospatial-companies">this excellent list by Christoph Rieke</a>.
 The names of the companies (and the careers page the newsletter monitors) are available below.
-</p><ul class="list-disc text-left">
+<ul class="list-disc text-left">
 	<li><a href="https://360environmental.com.au/careers/">360Environmental</a></li>
 	<li><a href="https://www.2excelaviation.com/careers/">2Excel Geospatial</a></li>
 	<li><a href="https://www.3deo.com/careers">4DM</a></li>
@@ -40,7 +40,6 @@ The names of the companies (and the careers page the newsletter monitors) are av
 	<li><a href="https://www.aerospacelab.be/join-our-team/">Aerospacelab</a></li>
 	<li><a href="https://www.aeroterra.com/es-ar/trabaja-con-nosotros/busquedas-actuales">Aeroterra</a></li>
 	<li><a href="https://www.aresys.it/careers/#open-positions">Aersys</a></li>
-	<li><a href="https://www.agerpoint.com/careers">Agerpoint</a></li>
 	<li><a href="https://www.telus.com/agcg/careers/positions">Agrian</a></li>
 	<li><a href="https://jobs.lever.co/aidash">Aidash</a></li>
 	<li><a href="https://www.airbornetechnologies.at/en/jobs/">Airborne Technologies</a></li>
@@ -125,7 +124,7 @@ The names of the companies (and the careers page the newsletter monitors) are av
 	<li><a href="https://www.eagle.co.nz/employment">Eagle Technology</a></li>
 	<li><a href="https://careers-eagleview.icims.com/jobs/search">Eagle View</a></li>
 	<li><a href="https://www.earthblox.io/careers">Earthblox</a></li>
-	<li><a href="https://earthdaily.com/careers/career-opportunities/earthdaily-analytics-careers/">EarthDaily Analytics</a></li>
+	<li><a href="https://earthdaily.applytojob.com/">EarthDaily Analytics</a></li>
 	<li><a href="https://cdn.earthi.space/careers/">earth-i</a></li>
 	<li><a href="https://earthpulse.ai/about">Earthpulse</a></li>
 	<li><a href="https://www.earthsense.co.uk/careers">Earthsense</a></li>
@@ -193,6 +192,7 @@ The names of the companies (and the careers page the newsletter monitors) are av
 	<li><a href="https://geoint.com.au/category/careers/">Geospatial Intelligence PTY LTD</a></li>
 	<li><a href="https://www.geospatialworld.net/about/people.html">Geospatial Media+Communications</a></li>
 	<li><a href="https://www.geospin.de/en/">Geospin</a></li>
+	<li><a href="https://earthdaily.com/careers/career-opportunities/earthdaily-analytics-careers/">Geosys</a></li>
 	<li><a href="http://www.geosysnet.de/en/jobs.html">Geosysnet</a></li>
 	<li><a href="https://www.geosystems-hellas.gr/careers-2/">Geosystems Hellas</a></li>
 	<li><a href="https://www.geosystems.com.ar/en/company/#joingeosystemsteam">Geosystems S.A.</a></li>
@@ -224,7 +224,6 @@ The names of the companies (and the careers page the newsletter monitors) are av
 	<li><a href="https://apply.workable.com/hydrosat/#jobs">Hydrosat</a></li>
 	<li><a href="https://apply.workable.com/hyperverge/#jobs">Hyperverge</a></li>
 	<li><a href="https://www.hqplantations.com.au/our-people/career-opportunities">HQPlantations</a></li>
-	<li><a href="https://jobboerse.iabg.de/engage/jobexchange/showJobOfferList.do?j=myjobexchange">IABG</a></li>
 	<li><a href="https://www.iceye.com/careers#open-positions">Iceye</a></li>
 	<li><a href="https://ifarmer.asia/career?locale=en">iFarmer Asia</a></li>
 	<li><a href="https://www.imagemnl.com/career/">Imagem nl</a></li>
@@ -250,6 +249,150 @@ The names of the companies (and the careers page the newsletter monitors) are av
 	<li><a href="https://www.lifa.dk/karriere/ledige-stillinger/">LIFA A/S</a></li>
 	<li><a href="https://live-eo.com/jobs/">LiveEO</a></li>
 	<li><a href="https://www.lmkt.com/jobs">LMKT</a></li>
+	<li><a href="https://www.luxcarta.com/careers/">LuxCarta</a></li>
+	<li><a href="https://makepath.com/careers/">Makepath</a></li>
+	<li><a href="https://www.mapbox.com/careers#jobs">Mapbox</a></li>
+	<li><a href="https://www.maphubs.com/careers">MapHubs</a></li>
+	<li><a href="https://www.mapotic.com/about/jobs/">Mapotik</a></li>
+	<li><a href="https://www.maptek.com/">Maptek</a></li>
+	<li><a href="https://www.maptiler.com/jobs/">Maptiler</a></li>
+	<li><a href="https://www.marvelgeospatial.com/careers-2/">Marvel Geospatial Solutions</a></li>
+	<li><a href="https://maxar.wd1.myworkdayjobs.com/MAXAR?utm_source=Maxar-careers&utm_medium=website">Maxar</a></li>
+	<li><a href="https://www.mckenzieintelligence.com/careers/">McKenzie Intelligence</a></li>
+	<li><a href="https://www.meeo.it/join-us/">Meeo</a></li>
+	<li><a href="https://jobs.merkator.com/">Merkator BV</a></li>
+	<li><a href="https://careers.merrick.com/careers-home/jobs">Merrick</a></li>
+	<li><a href="https://motiontag.jobs.personio.de/">Motiontag</a></li>
+	<li><a href="https://www.mundialis.de/en/karriere/">Mundialis</a></li>
+	<li><a href="https://www.muonspace.com/careers/">Muon Space</a></li>
+	<li><a href="https://ncx.com/careers/">NCX</a></li>
+	<li><a href="https://careers.smartrecruiters.com/Nearmap/">Nearmap</a></li>
+	<li><a href="https://boards.greenhouse.io/nearspacelabs">Near Space Labs</a></li>
+	<li><a href="https://www.neo.nl/vacatures-bij-neo/">NEO BV</a></li>
+	<li><a href="https://ngis.com.au/Career-Listing">NGIS</a></li>
+	<li><a href="https://osl.co.ke/about-us/careers/vacancies/">Oakar Services</a></li>
+	<li><a href="https://onesoil.ai/en/careers">Onesoil</a></li>
+	<li><a href="https://apply.workable.com/1spatial/">Onespatial</a></li>
+	<li><a href="https://opegieka.pl/our-activities,3,en#career">Opegieka</a></li>
+	<li><a href="https://orbica.world/work-for-us">Orbica</a></li>
+	<li><a href="https://sites.orbital.co.ke/career">Orbital Africa</a></li>
+	<li><a href="https://orbitalinsight.com/company/careers/job-openings">Orbital Insight</a></li>
+	<li><a href="https://jobs.lever.co/orbitalsidekick">Orbital Sidekick</a></li>
+	<li><a href="https://ororatech.com/careers/">OroraTech</a></li>
+	<li><a href="https://www.overstory.com/careers#roles">Overstory</a></li>
+	<li><a href="https://pachama.com/careers/">Pachama</a></li>
+	<li><a href="https://www.pelicancorp.com/us/about-us/careers">Pelicancorp</a></li>
+	<li><a href="https://www.perennial.earth/careers#job-openings">Perennial</a></li>
+	<li><a href="https://picterra.ch/jobs/">Picterra</a></li>
+	<li><a href="https://www.notion.so/Work-Pina-Earth-5a6945a900314353b60bdc63ac7492c4">Pina Earth</a></li>
+	<li><a href="https://apply.workable.com/pix4d/">Pix4D</a></li>
+	<li><a href="https://pixxel.bamboohr.com/careers/">Pixxel</a></li>
+	<li><a href="https://www.planet.com/company/careers/#opportunities">Planet</a></li>
+	<li><a href="https://www.planetwatchers.com/careers/">Planet Watchers</a></li>
+	<li><a href="https://www.planetek.it/eng/contact_us/job_opportunities">Planetek</a></li>
+	<li><a href="https://www.precisionhawk.com/careers">Precision Hawk</a></li>
+	<li><a href="https://www.precisely.com/careers-and-culture/us-jobs/job?gh_jid=4147980005">Precisely</a></li>
+	<li><a href="https://www.preligens.com/jobs">Preligens</a></li>
+	<li><a href="https://www.prenav.com/jobs">Prenav</a></li>
+	<li><a href="https://previsico.com/join-the-team/">Previscio</a></li>
+	<li><a href="https://www.promegis.de/karriere/">Promegis</a></li>
+	<li><a href="https://www.propelleraero.com/jobs/sydney/">Propeller</a></li>
+	<li><a href="https://prospera.ag/careers/">Prospera</a></li>
+	<li><a href="https://qed.ai/careers">QED</a></li>
+	<li><a href="https://careers-nv5.icims.com/jobs/search?ss=1&hashed=-435710753">Quantum Spatial</a></li>
+	<li><a href="https://www.radiant.earth/careers/">Radiant Earth</a></li>
+	<li><a href="https://readar.com/jobs/">Readaar</a></li>
+	<li><a href="https://www.regio.ee/ettevottest/tule-toole/">Regio</a></li>
+	<li><a href="https://jobs.gusto.com/boards/regrid-map-your-future-c265c805-0902-4628-bd27-d013fdcfb5bc?hsCtaTracking=f32fadc7-2ef2-4bcb-ba61-ded5364f3999%7Cd959f439-eb71-4372-b4ac-3b891f1fefc4">Regrid</a></li>
+	<li><a href="https://jobs.lever.co/regrow.ag">Regrow</a></li>
+	<li><a href="https://www.remote-sensing-solutions.com/job-posting/">Remote Sensing Solutions RSS</a></li>
+	<li><a href="https://www.rezatec.com/about/working-for-rezatec/">Rezatec</a></li>
+	<li><a href="https://riskfrontiers.com/meet-the-team/careers/">Risk Frontiers</a></li>
+	<li><a href="https://www.riverside.com/careers">Riverside</a></li>
+	<li><a href="https://rmsi.zohorecruit.com/jobs/Careers">RMSI</a></li>
+	<li><a href="https://rsmetrics.com/careers/">RS Metrics</a></li>
+	<li><a href="https://rss-hydro.lu/rss-careers/">RSS-Hydro</a></li>
+	<li><a href="https://www.safegraph.com/careers">Safegraph</a></li>
+	<li><a href="https://salo.ai/careers">Salo Sciences</a></li>
+	<li><a href="https://satelligence.com/careers">Satelligence</a></li>
+	<li><a href="https://www.satellitevu.com/careers">Satellite Vu</a></li>
+	<li><a href="https://satellogic.bamboohr.com/jobs/">Satellogic</a></li>
+	<li><a href="https://www.satelytics.com/careers/">Satelytics</a></li>
+	<li><a href="https://www.satpalda.com/career">Satpalda Geospatial Services</a></li>
+	<li><a href="https://satsure.zohorecruit.in/jobs/Careers">Satsure</a></li>
+	<li><a href="https://www.schneidergis.com/careers">Schneider</a></li>
+	<li><a href="https://seequent.csod.com/ux/ats/careersite/1/home?c=seequent">Seequent</a></li>
+	<li><a href="https://sensat.notion.site/Careers-at-Sensat-a47cf24fbfd94b55b81a090cbe67a565">Sensat</a></li>
+	<li><a href="https://ageagle.com/about/careers/">Sensefly</a></li>
+	<li><a href="https://sensorem.com.au/careers/">Sensorem</a></li>
+	<li><a href="https://www.sentinel-hub.at/careers/#careers">Sentinelhub Austria</a></li>
+	<li><a href="https://sharpershape.com/careers/">Sharpershape</a></li>
+	<li><a href="https://www.sinergise.com/en/careers/openpositions">Sinergise</a></li>
+	<li><a href="https://sistema.at/join-us/">Sistema GmbH</a></li>
+	<li><a href="https://www.sivandesign.com/company/careers/">Sivan Design</a></li>
+	<li><a href="https://skycatch.com/careers">Skycatch</a></li>
+	<li><a href="https://skygeo.com/careers-software-development/">SkyGeo</a></li>
+	<li><a href="https://angel.co/company/skylark-drones/jobs">Skylark Drones</a></li>
+	<li><a href="https://skymapglobal.com/careers/">Skymap Global</a></li>
+	<li><a href="https://skytruth.org/about/careers/">Skytruth</a></li>
+	<li><a href="https://skywatch.com/careers/">Skywatch</a></li>
+	<li><a href="https://skyx.com/careers/">SkyX</a></li>
+	<li><a href="https://www.sobolt.com/careers/">Sobolt</a></li>
+	<li><a href="https://www.space-intelligence.com/working-for-us/">Space Intelligence Ltd</a></li>
+	<li><a href="https://www.space4good.com/vacancies">Space4good</a></li>
+	<li><a href="https://www.spacebel.com/en/careers">Spacebel</a></li>
+	<li><a href="https://spaceknow.com/careers/#positions">Spaceknow</a></li>
+	<li><a href="http://spacemetric.com/vacancies/">Spacemetric</a></li>
+	<li><a href="https://50-partners.welcomekit.co/companies/spacesense-ai">Spacesense</a></li>
+	<li><a href="https://www.spacesur.com/we-are-hiring/">SpaceSUR</a></li>
+	<li><a href="http://www.spacewillinfo.com/careers/Social/">Spacewill</a></li>
+	<li><a href="https://sparkgeo.com/careers/">Sparkgeo</a></li>
+	<li><a href="https://spatialdecisions.net/job-openings">Spatial Decisions</a></li>
+	<li><a href="https://spatialdistillery.com/careers">Spatial Destillery</a></li>
+	<li><a href="https://www.fulcrumapp.com/careers#careers-section">Spatial Networks</a></li>
+	<li><a href="https://www.datakiosk.com.au/cirrus/usercontrols/journey/careers_joblist.aspx?kiosk=FA4EC1ED5C0350F994D00A531FCED259&MD5=8490E0B47875F31AACBD5C56A6657196">Spatial Vision</a></li>
+	<li><a href="https://spiralblue.space/careers">Sprial Blue</a></li>
+	<li><a href="https://spire.com/careers/job-openings/">Spire</a></li>
+	<li><a href="https://jobs.lever.co/sylvera">Sylvera</a></li>
+	<li><a href="https://www.esri-austria.at/ueber-uns/karriere/">SynerGIS Informationssysteme GmbH</a></li>
+	<li><a href="https://careers.synspective.com/">Synspective</a></li>
+	<li><a href="https://t-kartor.com/careers/">T-Kartor</a></li>
+	<li><a href="https://www.taranis.com/careers/#link__list__content">Taranis</a></li>
+	<li><a href="https://www.targomo.com/about-us/career/">Targomo</a></li>
+	<li><a href="https://careers.avineon-tensing.com/en/jobs?utm_campaign=page_1880135_cta_17127438&utm_content=https%3A%2F%2Fcareers.avineon-tensing.com&utm_medium=cta-block&utm_source=teamtailor-page">Tensing</a></li>
+	<li><a href="https://www.tensorflight.io/careers">Tensorflight</a></li>
+	<li><a href="https://www.terraremote.com/careers">Terra Remote Sensing</a></li>
+	<li><a href="https://www.terrabotics.co.uk/careers">Terrabotics</a></li>
+	<li><a href="https://www.terradue.com/portal/jobs">Terradue</a></li>
+	<li><a href="https://apply.workable.com/terrafuse/">Terrafuse AI</a></li>
+	<li><a href="https://terragotech.com/careers/">TerraGo</a></li>
+	<li><a href="https://www.terraqt.com/en/team#Joinus">TerraQuanta</a></li>
+	<li><a href="https://www.terrestris.de/en/aktuelle-stellenangebote/">Terrestris</a></li>
+	<li><a href="https://tesselo.com/about#job-offers">Tesselo</a></li>
+	<li><a href="https://www.theyield.com/about-us/jobs">The Yield</a></li>
+	<li><a href="https://www.tomorrow.io/careers/">Tomorrow io</a></li>
+	<li><a href="https://www.tomtom.com/careers/joboverview/">TomTom</a></li>
+	<li><a href="https://topolytics.com/join-us/">Topolytics</a></li>
+	<li><a href="https://traveltime.recruitee.com/">Traveltime</a></li>
+	<li><a href="https://site.tre-altamira.com/work-with-us/">Tre Altamira</a></li>
+	<li><a href="https://www.trigis.de/en/stellenangebote-bereiche/bereich/stellenangebote.html">Trigis Geoservices GmbH</a></li>
+	<li><a href="https://ubilabs.com/en/career">Ubilabs</a></li>
+	<li><a href="https://join.com/companies/ubiq">Ubiq</a></li>
+	<li><a href="https://umbralab.bamboohr.com/jobs/">Umbra</a></li>
+	<li><a href="https://jobs.lever.co/unacast/">Unacast</a></li>
+	<li><a href="https://up42gmbh.recruitee.com/">UP42</a></li>
+	<li><a href="https://jobs.upstream.tech/">Upstream Tech</a></li>
+	<li><a href="https://ursaspacesystems.applytojob.com/apply/">Ursa Space</a></li>
+	<li><a href="https://vercator.com/careers/">Vercator</a></li>
+	<li><a href="https://www.vertigis.com/careers/europe/#rt-jobs-1">Vertigis</a></li>
+	<li><a href="https://www.vertigis.com/careers/north-america/">Vertigis</a></li>
+	<li><a href="https://vineview.com/careers/">Vineview</a></li>
+	<li><a href="https://www.vista-geo.de/karriere">VISTA Remote Sensing</a></li>
+	<li><a href="https://vizzuality.bamboohr.com/jobs/?source=vizzuality">Vizzuality</a></li>
+	<li><a href="https://jobs.maxime-media.de/wheregroup-gmbh">WhereGroup GmbH</a></li>
+	<li><a href="https://recruiting.paylocity.com/Recruiting/Jobs/All/48bc25bb-ce82-49c6-a964-021ed91f68d1">Woolpert</a></li>
+	<li><a href="https://worldfrom.space/en/career/">World from Space</a></li>
+	<li><a href="https://wyvern.space/careers/">Wyvern</a></li>
 </ul>
 <h2 id="comparison">How does this compare to other newsletters?</h2>
 <p>
