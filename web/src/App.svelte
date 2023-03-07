@@ -6,7 +6,7 @@
 </script>
 
 <main>
-  <h1>Geospatial Jobs Monitor</h1>
+  <h1>AutoGeoJobs</h1>
   <h2>A bi-weekly auto-generated newsletter for jobs in the geospatial industry</h2>
   <Signup/>
   <Content/>
