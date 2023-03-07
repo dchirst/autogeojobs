@@ -1,6 +1,6 @@
 <h1>AutoGeoJobs</h1>
 <h2>A bi-weekly auto-generated newsletter for jobs in the geospatial industry</h2>
-<a href="https://dchirst.github.io/geospatialjobs/">SUBSCRIBE TO THE NEWSLETTER</a>
+<a href="https://dchirst.github.io/autogeojobs/">SUBSCRIBE TO THE NEWSLETTER</a>
 <h2>Table of Contents</h2>
 <ul>
     <li><a href="#desc">What is this?</a></li>
