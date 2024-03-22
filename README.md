@@ -1,6 +1,12 @@
 <h1>AutoGeoJobs</h1>
 <h2>A bi-weekly auto-generated newsletter for jobs in the geospatial industry</h2>
-<a href="https://dchirst.github.io/autogeojobs/">SUBSCRIBE TO THE NEWSLETTER</a>
+
+> ⚠️ This newsletter has been deprecated. If you'd like to see the Geospatial companies and their career pages
+(last updated in 2023), you can duplicate <a href="https://docs.google.com/spreadsheets/d/1YieNiDHVTC5CfX13n72fXuceDaubSuyrghgAnxipsbY/edit#gid=0">this Google Sheet</a>.
+> Thank you for coming!
+
+
+[//]: # (<a href="https://dchirst.github.io/autogeojobs/">SUBSCRIBE TO THE NEWSLETTER</a>)
 <h2>Table of Contents</h2>
 <ul>
     <li><a href="#desc">What is this?</a></li>
