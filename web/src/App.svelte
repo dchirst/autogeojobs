@@ -1,13 +1,14 @@
 <script lang="ts">
-  import svelteLogo from './assets/svelte.svg'
   import Signup from "./lib/Signup.svelte";
   import Companies from "./lib/Companies.svelte"
   import Content from "./lib/Content.svelte";
+  import DeprecationMessage from "./lib/DeprecationMessage.svelte";
 </script>
 
-<main>
+<main class="w-full">
   <h1>AutoGeoJobs</h1>
   <h2>A bi-weekly auto-generated newsletter for jobs in the geospatial industry</h2>
+  <DeprecationMessage/>
   <Signup/>
   <Content/>
 </main>
